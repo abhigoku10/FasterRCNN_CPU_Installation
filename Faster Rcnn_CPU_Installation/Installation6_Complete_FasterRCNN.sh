@@ -8,8 +8,11 @@ sudo apt-get -y install python cython
 sudo make
 
 # run the script or command to download the models of vgg16 and zf 
+#if your in open network 
 cd $FRCN_ROOT
 ./data/scripts/fetch_faster_rcnn_models.sh
+
+#or else donwload the model seperately and create a folder in py-faster-rcnn/data with name faster_rcnn_models and place the model file inside it
 
 #This successfully installs the Faster RCNN on the system 
 
