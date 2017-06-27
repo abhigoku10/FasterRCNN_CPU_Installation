@@ -3,12 +3,13 @@
 # This script install caffe after the pre-requisites have been installed
 set -e
 
-##to download caffe from the website 
+##GO TO THE caffe_rcnn folder in the faster_rcnn directory 
 
-cd ../../Caffe-Master
-wget https://github.com/BVLC/caffe/archive/master.zip
-unzip -o caffe-master.zip
-cd caffe-master
+##to download caffe from the website 
+#cd ../../Caffe-Master
+#wget https://github.com/BVLC/caffe/archive/master.zip
+#unzip -o caffe-master.zip
+#cd caffe-master
 
 # Prepare Python binding (pycaffe)
 cd python
