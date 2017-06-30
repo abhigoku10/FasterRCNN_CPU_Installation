@@ -23,7 +23,8 @@ sudo apt-get install --no-install-recommends libboost-all-dev
 
 
 ### to inside the caffe_faster_rcnn and install the remaining libraries 
-
+##make sure ur in caffe_faster_rcnn folder first install glob and come back and then install gflags and comeback 
+##to default caffe_faster_rcnn and then lmdb 
 # glog
 wget https://github.com/google/glog/archive/v0.3.3.tar.gz
 tar zxvf v0.3.3.tar.gz
